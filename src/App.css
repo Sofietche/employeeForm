@@ -1,4 +1,3 @@
-/* src/App.css */
 body {
   background: url('../public/background.png');
   font-family: 'Arial', sans-serif;
@@ -54,7 +53,7 @@ input::placeholder {
 .input-group {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Espacio entre los inputs */
+  gap: 10px;
 }
 
 .input-group input {
@@ -136,14 +135,13 @@ input[type="text"] {
   color: #ffffff;
   cursor: pointer;
   text-decoration: underline;
-  padding: 10px 0; /* Solo padding vertical */
+  padding: 10px 0;
 }
 
- /* nuevo */
 
  .input-label {
   color: white;
-  font-size: 0.875rem; /* Tamaño más pequeño */
+  font-size: 0.875rem; 
   display: block;
   margin-bottom: 0.5rem;
 }

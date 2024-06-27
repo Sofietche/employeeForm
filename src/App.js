@@ -13,7 +13,7 @@ export default function App() {
     control: (provided) => ({
       ...provided,
       backgroundColor: '#417cea',
-      color: 'white',  // Esto asegura que el texto dentro del control sea blanco.
+      color: 'white', 
       borderColor: 'none',
       borderRadius: '80px',
       padding: '4px',
